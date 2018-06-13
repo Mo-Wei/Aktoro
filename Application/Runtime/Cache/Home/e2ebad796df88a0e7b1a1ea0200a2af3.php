@@ -113,8 +113,8 @@
                     <div class="status_list_item icon_kyubo">
                         <div class="status_user" style="background-image: url(/Public/Home/images/b0ce3f3cde0c084b6d42321b2dcbc407.jpeg);">
                             <div class="status_section">
-                                <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="../Base/detail.html" class="status_btn"><?php echo ($vo['title']); ?></a>
-                                    <p class="section_p"><?php echo ($vo['description']); ?></p><?php endforeach; endif; else: echo "" ;endif; ?>
+                                <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="../Base/detail.html" class="status_btn"></a>
+                                    <p class="section_p"></p><?php endforeach; endif; else: echo "" ;endif; ?>
                             </div>
                         </div>
                     </div>
